@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series",
+ "creation": "2022-08-25 14:10:57.151194",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "t_date",
+  "naming_seies",
+  "t_item",
+  "search_item",
+  "items"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "t_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "naming_seies",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "Test-.YYYY.###"
+  },
+  {
+   "fieldname": "t_item",
+   "fieldtype": "Data",
+   "label": "T Item"
+  },
+  {
+   "fieldname": "search_item",
+   "fieldtype": "Button",
+   "label": "Search"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Quotation Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-25 14:19:28.801340",
+ "modified_by": "Administrator",
+ "module": "Sgv",
+ "name": "SGP Item",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-18 10:53:28.101407",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "box",
+  "posting_date",
+  "transaction_type",
+  "document_no",
+  "cs_name",
+  "gst_code",
+  "gst_rate",
+  "taxable_amt",
+  "gst_amt"
+ ],
+ "fields": [
+  {
+   "fieldname": "box",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Box"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "transaction_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transaction Type"
+  },
+  {
+   "fieldname": "document_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document No"
+  },
+  {
+   "fieldname": "cs_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "gst_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GST Code"
+  },
+  {
+   "fieldname": "gst_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GST Rate"
+  },
+  {
+   "fieldname": "taxable_amt",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Taxable Amt"
+  },
+  {
+   "fieldname": "gst_amt",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "GST Amt"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-20 12:28:58.613030",
+ "modified_by": "Administrator",
+ "module": "Sgv",
+ "name": "SGP GST Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
